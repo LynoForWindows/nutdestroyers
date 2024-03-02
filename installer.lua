@@ -1,7 +1,7 @@
 --Orion lib 💀💀
 --switched to  fluent(much better)
 
-
+print("it was loaded")
 local isfile = isfile or function(file)
     local success, filecontents = pcall(function() return readfile(file) end)
     return success and type(filecontents) == 'string'
